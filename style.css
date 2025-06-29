@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#renderCanvas {
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+body {
+  background: linear-gradient(135deg, #ffe0ec 0%, #c9e7ff 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: #fff8fc;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px #eab0c9aa;
+  padding: 48px 32px 32px 32px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+h1 {
+  color: #e75480;
+  margin-bottom: 32px;
+  font-size: 2.2em;
+  letter-spacing: 1px;
+}
+#questionForm {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+#questionInput {
+  flex: 1;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1.5px solid #eab0c9;
+  font-size: 1.1em;
+  outline: none;
+  background: #fff;
+  transition: border 0.2s;
+}
+#questionInput:focus {
+  border: 1.5px solid #e75480;
+}
+button[type="submit"] {
+  background: #e75480;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 0 24px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: bold;
+}
+button[type="submit"]:hover {
+  background: #c2185b;
+}
+#answerBox {
+  min-height: 60px;
+  font-size: 1.2em;
+  color: #7b1fa2;
+  margin-top: 12px;
+  padding: 18px 12px;
+  background: #fff0f6;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px #eab0c933;
+  display: inline-block;
+}
+.container:after {
+  content: '🌸';
+  display: block;
+  font-size: 2.2em;
+  margin-top: 18px;
+  opacity: 0.7;
+}
