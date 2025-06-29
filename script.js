@@ -3,11 +3,11 @@ const input = document.getElementById('questionInput');
 const answerBox = document.getElementById('answerBox');
 
 const answers = [
-  "Without a doubt, yes — the stars have confirmed it 🌟.",
+  "Honestly? You were never wrong to begin with 🌟.",
   "Maybe… but only if you give me a cookie first 🍪.",
   "The universe is confused. Ask again after a dance break 💃.",
-  "100% yes. And also, you're adorable for asking that 🥰.",
-  "i think it will be hmmm… but hey you already know the answer, don't you? 😉"
+  "No matter what you ask, you’re still the main character🥰.",
+  "Every version of this ends with you winning😉"
 ];
 
 form.addEventListener('submit', e => {
